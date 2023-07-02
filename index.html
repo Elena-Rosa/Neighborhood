@@ -12,24 +12,15 @@
 <body>
     <div>
         <h1>Welcome to Mr. Roboger's Neighborhood!</h1>
-
-        <p>We play here! I hope that you will join us! </p>
-        <p>Let's play a number's game! It's called Robogology. Are you ready? Set! Go!</p>
-        <p>Remember to answer the questions with numbers only.</p>
-        <form id="userInfo">
-            <label for="feelingsQ">How many feelings can you name?</label>
-            <input id="feelingsQ" type="text name=feelingsQ"><br><br>
-            <label for="dissapointedQ">How many times have you been dissapointed today?</label>
-            <input id="dissapointedQ" type="text name =dissapointedQ"><br><br>
-            <label for="ThankYouQ">How many times have you said thank you today?</label>
-            <input id="ThankYouQ" type="text" name="ThankYouQ"><br><br>
-            <label for="lovedQ">How many people, pets, or things have you loved?</label>
-            <input id="lovedQ" type="text" name="lovedQ"><br><br>
-            <label for="cardigansQ">How many red cardigans do you own?</label>
-            <input id="cardigansQ" type="text" name="cardigansQ"><br><br>
+        <p>Let's play a number's game! It's called Robogology!</p>
+        <p>What's your number? Any number!</p>
+        <form id="userAnswers">
+            <label for="myNum">Number</label>
+            <input id="myNum" type="text name=myNum"><br><br>
             <button type="submit">Show me my Robogology</button>
+            <button onClick="submitForm()">Show me my Robogology</button>
         </form>
-        <div id="language" class="hidden">
+        <div id="GameAnswers" class="hidden">
         </div>
 
 </body>
