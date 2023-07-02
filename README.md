@@ -24,6 +24,28 @@ This is a playful numbers game that takes a users inputted number and returns a 
 
 * _No issues known_
 
+## Tests
+
+Describe: function processNumber()
+
+
+Test: "It should replace numbers that contain a "1" with "Beep"
+Code: 
+const beep(1)
+beepBoop(1)
+Expected Output: [0,"Beep"]
+
+Test: "It should replace numbers that contain a "2" with "Boop"
+Code: 
+const boop(2)
+beepBoop(2)
+Expected Output: [0, "Beep", "Boop"]
+
+Describe: function displayResults
+
+Test: "It should return an array of numbers from 0 to the user's inputted number"
+Code: beepBoop(0);
+Expected Output: [0]
 
 ## License
 

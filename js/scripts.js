@@ -1,17 +1,15 @@
 window.onload = function () {
     const questionForm = document.getElementById("userAnswers");
     questionForm.addEventlistener("submit", submitForm);
+    let myArray = [];
+
 }
 function submitForm() {
     event.preventDefault();
     const gameAnswers = document.getElementById("gameAnswers");
     gameAnswers.classList.remove("hidden");
 }
-const answer1 = document.getElementById("feelingsQ");
-const answer2 = document.getElementById("dissapointedQ");
-const answer3 = document.getElementById("thankYouQ");
-const answer4 = document.getElementById("lovedQ");
-const answer5 = document.getElementById("cardigansQ");
+
 
 const numberArray = [1, 2, 3, 3, 7, 18, 63];
 
@@ -29,9 +27,3 @@ else {
     language.innerHTML = "Maybe try piano lessons!";
 }
 
-answer1.value = "";
-answer2.value = "";
-answer3.value = "";
-answer4.value = "";
-answer5.value = "";
-}
