@@ -15,7 +15,7 @@ This is a playful numbers game that takes a users inputted number and returns a 
 
 ## Setup/Installation requirements
 
-* Clone repo from Github to your desktop with this command. $ git clone https://mishymushy.github.io/neighborhood/
+* Clone repo from Github to your desktop with this command. $ git clone https://mishymushy.github.io/Neighborhood/
 
 * Open index.html in a browser. 
 
