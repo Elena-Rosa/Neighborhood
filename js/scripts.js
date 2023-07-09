@@ -10,7 +10,7 @@ function process(myNum) {
 
 
 function processNumber(num) {
-    let numString = num.toString()
+    let numString = num.toString();
 
     if (numString.includes("3")) {
         return "Won't you be my neighbor?";

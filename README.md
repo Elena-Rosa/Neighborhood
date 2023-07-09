@@ -34,8 +34,6 @@ processNumber
 Expected output: let numString = ...if return "Won't you be My neighbor" else if return "Beep"
 
 
-Describe function gatherForm(input)
-
 Describe: function displayResults
 
 Test: "It should replace numbers that contain a "1" with "Beep"
