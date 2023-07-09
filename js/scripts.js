@@ -1,12 +1,13 @@
 //business logic
 
-function process(input) {
-    let myNum = document.getElementById("userAnswers");
-    questionForm.addEventlistener("submit", submitForm);
+function process(myNum) {
     let myArray = [];
-    for (let i = 0; i <= myNum; i++)
+    for (let i = 0; i <= myNum; i++) {
         myArray.push(processNumber(i));
+    }
+    return myArray;
 }
+
 
 function processNumber(num) {
     let numString = num.toString()
@@ -25,7 +26,7 @@ function processNumber(num) {
     }
 
 
-    //user 
+    //user interface logic
     //function ()
     // let myNum = document.getElementById("userAnswers");
     // questionForm.addEventlistener("submit", submitForm);
