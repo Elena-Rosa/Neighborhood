@@ -15,7 +15,7 @@ This is a playful numbers game that takes a users inputted number and returns a 
 
 ## Setup/Installation requirements
 
-* Clone repo from Github to your desktop with this command. $ git clone https://mishymushy.github.io/Neighborhood/
+* Clone repo from Github to your desktop with this command. $ git clone https://Elena-Rosa.github.io/Neighborhood/
 
 * Open index.html in a browser. 
 
@@ -28,6 +28,15 @@ This is a playful numbers game that takes a users inputted number and returns a 
 
 Describe: function processNumber()
 
+Test: "It should return the let, if and else if statements"
+Code:
+processNumber
+Expected output: let numString = ...if return "Won't you be My neighbor" else if return "Beep"
+
+
+Describe function gatherForm(input)
+
+Describe: function displayResults
 
 Test: "It should replace numbers that contain a "1" with "Beep"
 Code: 
@@ -41,8 +50,6 @@ const boop(2)
 beepBoop(2)
 Expected Output: [0, "Beep", "Boop"]
 
-Describe: function displayResults
-
 Test: "It should return an array of numbers from 0 to the user's inputted number"
 Code: beepBoop(0);
 Expected Output: [0]
@@ -50,7 +57,7 @@ Expected Output: [0]
 ## License
 
 
-* _Copyright (c) _June 30th 2023_ _Elena Rosa)_
+* _Copyright (c) _July 7th 2023_ _Elena Rosa)_
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
