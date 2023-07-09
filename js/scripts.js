@@ -32,13 +32,22 @@ function processNumber(num) {
         let myNum = Number(document.getElementNById(input).value);
         let myArray = process(myNum);
         displayResults(myArray);
-    })
+    }
 
-
-
+    function displayResults(array) {
+        for (let i = 0; <array.length; i++) {
+        }
+    }
+    function submitForm() {
+        gatherForm("number");
+        event.preventDefault();
+    }
 
     function submitForm() {
         gatherForm("number");
         event.preventDefault();
     }
 
+    function reset() {
+        document, ent.getElementById("results").innerHTML = "";
+    }
