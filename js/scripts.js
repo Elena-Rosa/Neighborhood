@@ -24,30 +24,31 @@ function processNumber(num) {
     else {
         return numString;
     }
+}
 
 
-    //user interface logic
+//user interface logic
 
-    function gatherForm(input) {
-        let myNum = Number(document.getElementNById(input).value);
-        let myArray = process(myNum);
-        displayResults(myArray);
-    }
+function gatherForm(input) {
+    let myNum = Number(document.getElementById(input).value);
+    let myArray = process(myNum);
+    displayResults(myArray);
+}
 
-    function displayResults(array) {
-        for (let i = 0; <array.length; i++) {
+function displayResults(array) {
+    for (let i = 0; i < array.length; i++) {
+        if (i == array.length - 1) {
+            document.getElementById("results").innerHTML += array[i];
+        }
+        else {
+            document.getElementById("results").innerHTML += array[i] + ", ";
         }
     }
-    function submitForm() {
-        gatherForm("number");
-        event.preventDefault();
-    }
-
-    function submitForm() {
-        gatherForm("number");
-        event.preventDefault();
-    }
-
-    function reset() {
-        document, ent.getElementById("results").innerHTML = "";
-    }
+}
+function submitForm() {
+    gatherForm("number");
+    event.preventDefault();
+}
+function resetForm() {
+    document.getElementById("results").innerHTML = "";
+}

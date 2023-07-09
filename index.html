@@ -15,13 +15,12 @@
         <p>Let's play a number's game! It's called Robogology!</p>
         <p>What's your number? Any number!</p>
         <form id="userAnswers">
-            <label for="myNum">Number</label>
-            <input id="myNum" type="text name=myNum"><br><br>
-            <button type="submit">Show me my Robogology</button>
+            <label for="number">Enter a number</label>
+            <input id="number" type="text"><br><br>
             <button onClick="submitForm()">Show me my Robogology</button>
+            <button onClick="resetForm()">Reset</button>
         </form>
-        <div id="results" class="hidden">
-        </div>
+        <div id="results"></div>
 
 </body>
 
