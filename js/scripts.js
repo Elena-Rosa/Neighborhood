@@ -27,13 +27,18 @@ function processNumber(num) {
 
 
     //user interface logic
-    //function ()
-    // let myNum = document.getElementById("userAnswers");
-    // questionForm.addEventlistener("submit", submitForm);
-    // process(input)
+
+    function gatherForm(input) {
+        let myNum = Number(document.getElementNById(input).value);
+        let myArray = process(myNum);
+        displayResults(myArray);
+    })
+
+
+
 
     function submitForm() {
-        process("number");
+        gatherForm("number");
         event.preventDefault();
     }
 
