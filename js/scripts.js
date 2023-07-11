@@ -18,7 +18,7 @@ function processNumber(num) {
     else if (numString.includes("2")) {
         return "Beep!";
     }
-    else if (numString.include("1")) {
+    else if (numString.includes("1")) {
         return "Boop!";
     }
     else {
