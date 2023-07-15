@@ -26,21 +26,41 @@ This is a playful numbers game that takes a users inputted number and returns a 
 
 ## Tests
 
-Describe: function processNumber()
+Describe: processNumber()
 
-Test: "It should return the let, if and else if statements"
+Test: "It should return a string value for the number"
 Code:
-processNumber
-Expected output: let numString = ...if return "Won't you be My neighbor" else if return "Beep"
+processNumber(0)
+Expected output: "0"
 
+Test: "It should replace numbers containing a "1" with "Beep".
+Code:
+processNumber(1)
+Expected output: "Beep"
 
-Describe: function displayResults
+Test: "It should replace numbers containing a "2" with "Boop".
+Code:
+processNumber(2)
+Expected output: "Boop"
 
-Test: "It should replace numbers that contain a "1" with "Beep"
-Code: 
-const beep(1)
-beepBoop(1)
-Expected Output: [0,"Beep"]
+Test: "It should replace numbers containing a "3" with "Won't you be my neighbor".
+Code:
+processNumber(3)
+Expected output: "Won't you be my neighbor"
+
+Describe: process()
+
+Test: 
+Code: process(0)
+Expected Output: [0]
+
+Test: 
+Code: process(1)
+Expected Output: [0, "Beep"]
+
+Test: 
+Code: process(2)
+Expected Output: [0, "Beep"]
 
 Test: "It should replace numbers that contain a "2" with "Boop"
 Code: 
